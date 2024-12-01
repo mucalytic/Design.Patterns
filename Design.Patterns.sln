@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Abstract.Factory", "Design.Patterns.Abstract.Factory\Design.Patterns.Abstract.Factory.csproj", "{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Factory.Method", "Design.Patterns.Factory.Method\Design.Patterns.Factory.Method.csproj", "{4D11D094-FD3B-493A-8261-811379B75B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Simple.Factory", "Design.Patterns.Simple.Factory\Design.Patterns.Simple.Factory.csproj", "{72A307CB-849D-4A66-9471-BCF35D7E2703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D11D094-FD3B-493A-8261-811379B75B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D11D094-FD3B-493A-8261-811379B75B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D11D094-FD3B-493A-8261-811379B75B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D11D094-FD3B-493A-8261-811379B75B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A307CB-849D-4A66-9471-BCF35D7E2703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A307CB-849D-4A66-9471-BCF35D7E2703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A307CB-849D-4A66-9471-BCF35D7E2703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A307CB-849D-4A66-9471-BCF35D7E2703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
