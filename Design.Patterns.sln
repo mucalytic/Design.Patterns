@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Factory.Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Simple.Factory", "Design.Patterns.Simple.Factory\Design.Patterns.Simple.Factory.csproj", "{72A307CB-849D-4A66-9471-BCF35D7E2703}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Iterator", "Design.Patterns.Iterator\Design.Patterns.Iterator.csproj", "{F3F99005-3383-483C-8C60-976FC549AFCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{72A307CB-849D-4A66-9471-BCF35D7E2703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A307CB-849D-4A66-9471-BCF35D7E2703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72A307CB-849D-4A66-9471-BCF35D7E2703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F99005-3383-483C-8C60-976FC549AFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F99005-3383-483C-8C60-976FC549AFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F99005-3383-483C-8C60-976FC549AFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F99005-3383-483C-8C60-976FC549AFCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

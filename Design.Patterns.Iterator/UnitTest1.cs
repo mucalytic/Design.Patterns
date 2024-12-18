@@ -1,6 +1,4 @@
-﻿using Xunit;
-
-namespace Design.Patterns.Factory.Method;
+﻿namespace Design.Patterns.Iterator;
 
 public class UnitTest1
 {
