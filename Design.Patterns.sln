@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Nested.Buil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Fluent.Builder", "Design.Patterns.Fluent.Builder\Design.Patterns.Fluent.Builder.csproj", "{2EE7B125-3E15-41E5-81CF-DC6AFEEF4F1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Inner.Builder", "Design.Patterns.Inner.Builder\Design.Patterns.Inner.Builder.csproj", "{652B5F53-10F8-43CD-AED2-7D163C6DE06C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{2EE7B125-3E15-41E5-81CF-DC6AFEEF4F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE7B125-3E15-41E5-81CF-DC6AFEEF4F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE7B125-3E15-41E5-81CF-DC6AFEEF4F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652B5F53-10F8-43CD-AED2-7D163C6DE06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652B5F53-10F8-43CD-AED2-7D163C6DE06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652B5F53-10F8-43CD-AED2-7D163C6DE06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652B5F53-10F8-43CD-AED2-7D163C6DE06C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
