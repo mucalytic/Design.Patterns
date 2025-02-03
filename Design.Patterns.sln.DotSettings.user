@@ -3,5 +3,10 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::4D11D094-FD3B-493A-8261-811379B75B32::net9.0::Design.Patterns.Factory.Method.LevelTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::4D11D094-FD3B-493A-8261-811379B75B32::net9.0::Design.Patterns.Factory.Method.UnitTest1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests.SimpleProductBuilder_ShouldProduceSimpleProduct&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests.ComplexProductBuilder_ShouldProduceComplexProduct&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AA8B9624-E01D-4F95-BA5C-149393352F19::net8.0::Design.Patterns.Classic.Builder.Without.Director.ClassicBuilderTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
