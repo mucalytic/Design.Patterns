@@ -44,6 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{D7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Strategy", "Design.Patterns.Strategy\Design.Patterns.Strategy.csproj", "{40101447-B88B-43FC-A9C3-9849D4595D19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Payment.Processing.Strategy", "Design.Patterns.Payment.Processing.Strategy\Design.Patterns.Payment.Processing.Strategy.csproj", "{9E89D79E-ADB4-4A8C-A6F3-D3F3C3BF8F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -118,6 +120,10 @@ Global
 		{40101447-B88B-43FC-A9C3-9849D4595D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40101447-B88B-43FC-A9C3-9849D4595D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40101447-B88B-43FC-A9C3-9849D4595D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E89D79E-ADB4-4A8C-A6F3-D3F3C3BF8F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E89D79E-ADB4-4A8C-A6F3-D3F3C3BF8F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E89D79E-ADB4-4A8C-A6F3-D3F3C3BF8F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E89D79E-ADB4-4A8C-A6F3-D3F3C3BF8F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -137,5 +143,6 @@ Global
 		{CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
 		{4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
 		{40101447-B88B-43FC-A9C3-9849D4595D19} = {D7483948-DC30-47B3-9B29-1E1980BA29FF}
+		{9E89D79E-ADB4-4A8C-A6F3-D3F3C3BF8F8E} = {D7483948-DC30-47B3-9B29-1E1980BA29FF}
 	EndGlobalSection
 EndGlobal
