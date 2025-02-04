@@ -18,5 +18,7 @@
     &lt;TestId&gt;xUnit::44ED33E9-78F5-4D70-AB8F-029DF92D4A2E::net8.0::Design.Patterns.Naive.Singleton.Lazy.Loading.NaiveSingletonTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::38A46910-FF80-4238-BD53-FF52EB196A79::net8.0::Design.Patterns.Naive.Singleton.Lazy.Loading.Thread.Safe.NaiveSingletonTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::4EF8C64A-A1FE-4A59-9B69-9BB03515813B::net8.0::Design.Patterns.Singleton.Lazy.Loading.Thread.Safe.SingletonTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48::net8.0::Design.Patterns.Cool.Singleton.CoolSingletonTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79::net8.0::Design.Patterns.Singleton.Dependency.Injection.SingletonTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

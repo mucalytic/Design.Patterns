@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Singleton.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Cool.Singleton", "Design.Patterns.Cool.Singleton\Design.Patterns.Cool.Singleton.csproj", "{CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Singleton.Dependency.Injection", "Design.Patterns.Singleton.Dependency.Injection\Design.Patterns.Singleton.Dependency.Injection.csproj", "{4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +106,10 @@ Global
 		{CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -121,5 +127,6 @@ Global
 		{38A46910-FF80-4238-BD53-FF52EB196A79} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
 		{4EF8C64A-A1FE-4A59-9B69-9BB03515813B} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
 		{CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
+		{4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
 	EndGlobalSection
 EndGlobal
