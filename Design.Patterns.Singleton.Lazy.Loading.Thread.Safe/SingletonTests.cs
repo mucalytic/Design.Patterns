@@ -1,8 +1,8 @@
 using FluentAssertions;
 
-namespace Design.Patterns.Naive.Singleton.Lazy.Loading.Thread.Safe;
+namespace Design.Patterns.Singleton.Lazy.Loading.Thread.Safe;
 
-public class NaiveSingletonTests
+public class SingletonTests
 {
     [Fact]
     public void TwoReferencesToSingletonInstance_ShouldBeTheSameSingleton()
