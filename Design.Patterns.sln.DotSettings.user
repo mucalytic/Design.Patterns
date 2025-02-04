@@ -20,5 +20,6 @@
     &lt;TestId&gt;xUnit::4EF8C64A-A1FE-4A59-9B69-9BB03515813B::net8.0::Design.Patterns.Singleton.Lazy.Loading.Thread.Safe.SingletonTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48::net8.0::Design.Patterns.Cool.Singleton.CoolSingletonTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79::net8.0::Design.Patterns.Singleton.Dependency.Injection.SingletonTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::40101447-B88B-43FC-A9C3-9849D4595D19::net8.0::Design.Patterns.Strategy.StrategyTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
