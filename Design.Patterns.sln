@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Naive.Singleton", "Design.Patterns.Naive.Singleton\Design.Patterns.Naive.Singleton.csproj", "{37255623-BC03-4374-8527-54C088F907B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Naive.Singleton.Lazy.Loading", "Design.Patterns.Naive.Singleton.Lazy.Loading\Design.Patterns.Naive.Singleton.Lazy.Loading.csproj", "{44ED33E9-78F5-4D70-AB8F-029DF92D4A2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{37255623-BC03-4374-8527-54C088F907B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37255623-BC03-4374-8527-54C088F907B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37255623-BC03-4374-8527-54C088F907B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ED33E9-78F5-4D70-AB8F-029DF92D4A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ED33E9-78F5-4D70-AB8F-029DF92D4A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ED33E9-78F5-4D70-AB8F-029DF92D4A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ED33E9-78F5-4D70-AB8F-029DF92D4A2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -93,5 +99,6 @@ Global
 		{1E5E5696-CB4A-420F-AA57-444080B86F22} = {0A9A1624-3C46-4CD6-ADB5-2BDA2B689614}
 		{D038568C-889A-415F-8D2C-3B73A8E58A45} = {0A9A1624-3C46-4CD6-ADB5-2BDA2B689614}
 		{37255623-BC03-4374-8527-54C088F907B1} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
+		{44ED33E9-78F5-4D70-AB8F-029DF92D4A2E} = {9E604B4B-A88E-48D4-B932-67809C1E03CC}
 	EndGlobalSection
 EndGlobal

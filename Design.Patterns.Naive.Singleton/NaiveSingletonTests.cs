@@ -5,7 +5,7 @@ namespace Design.Patterns.Naive.Singleton;
 public class NaiveSingletonTests
 {
     [Fact]
-    public void Test()
+    public void TwoReferencesToSingletonInstance_ShouldBeTheSameSingleton()
     {
         // act
         var singleton1 = Singleton.Instance;
