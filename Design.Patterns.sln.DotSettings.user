@@ -26,5 +26,6 @@
     &lt;TestId&gt;xUnit::06F6190C-6A27-4BFC-852F-A98C54BD7F04::net8.0::Design.Patterns.Command.CommandTests.Command_IsReceivedAndInvoked&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::06F6190C-6A27-4BFC-852F-A98C54BD7F04::net8.0::Design.Patterns.Command.CommandTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::7660C3F9-8CD6-43D4-9EAB-3C5947C3DDE6::net8.0::Design.Patterns.Command.Cli.CommandTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::995D0984-60D7-4C58-BF37-69E528785A7F::net8.0::Design.Patterns.Observer.Pull.Based.ObserverTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
