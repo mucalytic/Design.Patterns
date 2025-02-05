@@ -4,9 +4,9 @@ namespace Design.Patterns.Decorator.Tesla.Components;
 
 public class BasicTeslaModel3 : ITeslaModel3
 {
-    public string GetDescription() => string.Empty;
+    public string GetDescription() => "Tesla Model 3 Rear-Wheel Drive";
 
-    public decimal GetPrice() => decimal.Zero;
+    public decimal GetPrice() => 38_990m;
 
-    public int GetRange() => 0;
+    public int GetRange() => 272;
 }

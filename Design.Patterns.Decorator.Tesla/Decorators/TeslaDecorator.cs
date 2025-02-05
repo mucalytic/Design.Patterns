@@ -2,9 +2,11 @@
 
 namespace Design.Patterns.Decorator.Tesla.Decorators;
 
-public abstract class TeslaDecorator(ITeslaModel3 teslaModel3) : ITeslaModel3
+public abstract class TeslaDecorator(ITeslaModel3 car) : ITeslaModel3
 {
-    public virtual string GetDescription() => teslaModel3.GetDescription();
-    public virtual decimal GetPrice() => teslaModel3.GetPrice();
-    public virtual int GetRange() => teslaModel3.GetRange();
+    protected readonly ITeslaModel3 _car = car;
+    
+    public virtual string GetDescription() => _car.GetDescription();
+    public virtual decimal GetPrice() => _car.GetPrice();
+    public virtual int GetRange() => _car.GetRange();
 }

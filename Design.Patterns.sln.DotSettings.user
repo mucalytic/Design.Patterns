@@ -30,5 +30,6 @@
     &lt;TestId&gt;xUnit::9397F71F-52D5-40A4-B3AC-C24FC024E46A::net8.0::Design.Patterns.Observer.Push.Based.ObserverTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::515ECB6E-7F79-44A2-B1CA-896C077485B7::net8.0::Design.Patterns.Observer.Game.Engine.ObservableTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3FAC067D-02C1-4BB9-B289-9385A79D98F4::net8.0::Design.Patterns.Decorator.DecoratorTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3FAC067D-02C1-4BB9-B289-9385A79D98F4::net8.0::Design.Patterns.Decorator.Tesla.DecoratorTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
