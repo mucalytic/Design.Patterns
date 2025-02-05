@@ -10,10 +10,10 @@ public class LevelTests
     public void CaveLevelCreatesGoblin()
     {
         // arrange
-        Level level = new CaveLevel();
+        var level = new CaveLevel();
         
         // act
-        IEnemy enemy = level.CreateEnemy();
+        var enemy = level.CreateEnemy();
 
         // assert
         enemy.Should().BeOfType<Goblin>();
@@ -23,10 +23,10 @@ public class LevelTests
     public void HauntedHouseLevelCreatesGhost()
     {
         // arrange
-        Level level = new HauntedHouseLevel();
+        var level = new HauntedHouseLevel();
         
         // act
-        IEnemy enemy = level.CreateEnemy();
+        var enemy = level.CreateEnemy();
 
         // assert
         enemy.Should().BeOfType<Ghost>();
