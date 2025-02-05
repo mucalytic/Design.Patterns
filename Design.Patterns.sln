@@ -80,6 +80,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Observer.Pu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Observer.Push.Based", "Design.Patterns.Observer.Push.Based\Design.Patterns.Observer.Push.Based.csproj", "{9397F71F-52D5-40A4-B3AC-C24FC024E46A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Observer.Game.Engine", "Design.Patterns.Observer.Game.Engine\Design.Patterns.Observer.Game.Engine.csproj", "{515ECB6E-7F79-44A2-B1CA-896C077485B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,6 +176,10 @@ Global
 		{9397F71F-52D5-40A4-B3AC-C24FC024E46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9397F71F-52D5-40A4-B3AC-C24FC024E46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9397F71F-52D5-40A4-B3AC-C24FC024E46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515ECB6E-7F79-44A2-B1CA-896C077485B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515ECB6E-7F79-44A2-B1CA-896C077485B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515ECB6E-7F79-44A2-B1CA-896C077485B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515ECB6E-7F79-44A2-B1CA-896C077485B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -213,5 +219,6 @@ Global
 		{7660C3F9-8CD6-43D4-9EAB-3C5947C3DDE6} = {241B5D8A-29B8-435C-9484-735B75A3D3F5}
 		{995D0984-60D7-4C58-BF37-69E528785A7F} = {5FA3AFAF-F565-4F2F-852A-7E24714E201D}
 		{9397F71F-52D5-40A4-B3AC-C24FC024E46A} = {5FA3AFAF-F565-4F2F-852A-7E24714E201D}
+		{515ECB6E-7F79-44A2-B1CA-896C077485B7} = {5FA3AFAF-F565-4F2F-852A-7E24714E201D}
 	EndGlobalSection
 EndGlobal
