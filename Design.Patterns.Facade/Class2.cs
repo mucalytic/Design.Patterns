@@ -1,6 +1,8 @@
-﻿namespace Design.Patterns.Facade;
+﻿using Xunit.Abstractions;
 
-public class Class2
+namespace Design.Patterns.Facade;
+
+public class Class2(ITestOutputHelper helper)
 {
-    void Operation2() { }
+    public void Operation2() => helper.WriteLine(nameof(Operation2));
 }
