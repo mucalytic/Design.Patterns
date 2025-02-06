@@ -1,4 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AConvert_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F106927d79dae58d552cf02cc6259937374ebd8103ac66086c62595612c9a6a_003FConvert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALateBoundTestFramework_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F22647a7960d2619ab733924a2acfee09d32a8827c8c680a37cc4863678abec_003FLateBoundTestFramework_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AParallelEnumerable_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F68de9acf475c7631e2396e062c963356d03028e73ee91e94e94885c5ec94_003FParallelEnumerable_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=33fd6a5d_002D3d01_002D423a_002Da58a_002Dfe5f27ecbb3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -31,5 +32,7 @@
     &lt;TestId&gt;xUnit::515ECB6E-7F79-44A2-B1CA-896C077485B7::net8.0::Design.Patterns.Observer.Game.Engine.ObservableTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3FAC067D-02C1-4BB9-B289-9385A79D98F4::net8.0::Design.Patterns.Decorator.DecoratorTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3FAC067D-02C1-4BB9-B289-9385A79D98F4::net8.0::Design.Patterns.Decorator.Tesla.DecoratorTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::988C4A33-F2A8-4263-A4B4-6B4C635ACCC7::net8.0::Design.Patterns.Adapter.AdapterTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::34A5938D-51D6-4FEB-BE9A-541579E6F8D5::net8.0::Design.Patterns.Adapter.Game.Engine.AdapterTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
