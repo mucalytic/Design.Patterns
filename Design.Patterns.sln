@@ -66,7 +66,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{5F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{276E03C7-E76B-4F06-BBB7-085669DE0232}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{9EB01F34-460E-4A56-9637-2B07B7A71BC8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template.Method", "Template.Method", "{9EB01F34-460E-4A56-9637-2B07B7A71BC8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{7FD40E7B-C637-4906-856B-64160591C9BD}"
 EndProject
@@ -111,6 +111,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Composite", "Design.Patterns.Composite\Design.Patterns.Composite.csproj", "{E555F8D0-DD9A-4DD9-B18C-2C5AA6909DC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Composite.University", "Design.Patterns.Composite.University\Design.Patterns.Composite.University.csproj", "{8EDB2A66-718E-4413-867B-C473EED38A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Facade", "Design.Patterns.Facade\Design.Patterns.Facade.csproj", "{EF80D37B-B744-4991-890C-4568E177743F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -238,6 +240,10 @@ Global
 		{8EDB2A66-718E-4413-867B-C473EED38A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDB2A66-718E-4413-867B-C473EED38A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDB2A66-718E-4413-867B-C473EED38A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF80D37B-B744-4991-890C-4568E177743F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF80D37B-B744-4991-890C-4568E177743F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF80D37B-B744-4991-890C-4568E177743F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF80D37B-B744-4991-890C-4568E177743F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4D11D094-FD3B-493A-8261-811379B75B32} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -293,5 +299,6 @@ Global
 		{0096980F-6986-474D-A981-5F68EDD88213} = {F801BBDE-B075-4331-B4DB-6C9D9009219F}
 		{E555F8D0-DD9A-4DD9-B18C-2C5AA6909DC6} = {570EBF3F-FCCE-4B6C-8A51-8D3863980CA1}
 		{8EDB2A66-718E-4413-867B-C473EED38A0A} = {570EBF3F-FCCE-4B6C-8A51-8D3863980CA1}
+		{EF80D37B-B744-4991-890C-4568E177743F} = {5ACABEDA-C3A4-4B45-BADF-D89E810211EA}
 	EndGlobalSection
 EndGlobal
