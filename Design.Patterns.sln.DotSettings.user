@@ -36,5 +36,6 @@
     &lt;TestId&gt;xUnit::34A5938D-51D6-4FEB-BE9A-541579E6F8D5::net8.0::Design.Patterns.Adapter.Game.Engine.AdapterTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::72A307CB-849D-4A66-9471-BCF35D7E2703::net9.0::Design.Patterns.Simple.Factory.SimpleFactoryTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754::net9.0::Design.Patterns.Abstract.Factory.AbstractFactoryTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0096980F-6986-474D-A981-5F68EDD88213::net8.0::Design.Patterns.Abstract.Factory.Quest.AbstractFactoryTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
