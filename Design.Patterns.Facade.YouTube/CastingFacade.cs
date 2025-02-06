@@ -18,7 +18,7 @@ public class CastingFacade(DeviceExplorer deviceExplorer)
         {
             connection = await smartTvDevice.TurnOnAsync();
         }
-        var app = await connection.LaunchAppAsync("com.google.youtube");
+        var app = await connection.LaunchAppAsync(Constants.AppId);
         if (app is not YouTubeApp youtubeApp)
         {
             throw new Exception("Failed to open YouTube app");

@@ -40,5 +40,6 @@
     &lt;TestId&gt;xUnit::E555F8D0-DD9A-4DD9-B18C-2C5AA6909DC6::net8.0::Design.Patterns.Composite.CompositeTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::8EDB2A66-718E-4413-867B-C473EED38A0A::net8.0::Design.Patterns.Composite.University.CompositeTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EF80D37B-B744-4991-890C-4568E177743F::net8.0::Design.Patterns.Facade.FacadeTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4297E3CC-8FF7-4CF9-BC31-9019359D3D96::net8.0::Design.Patterns.Facade.YouTube.FacadeTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
