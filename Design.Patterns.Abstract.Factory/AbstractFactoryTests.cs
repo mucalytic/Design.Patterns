@@ -1,6 +1,6 @@
 ﻿namespace Design.Patterns.Abstract.Factory;
 
-public class UnitTest1
+public class AbstractFactoryTests
 {
     [Fact]
     public void Test1() { }
