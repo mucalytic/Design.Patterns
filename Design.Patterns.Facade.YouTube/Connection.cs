@@ -4,5 +4,5 @@ namespace Design.Patterns.Facade.YouTube;
 
 public class Connection
 {
-    public Task<IApp> LaunchAppAsync(Guid appId) => Task.FromResult<IApp>(new YouTubeApp());
+    public Task<IApp> LaunchAppAsync(string appId) => Task.FromResult<IApp>(new YouTubeApp());
 }
