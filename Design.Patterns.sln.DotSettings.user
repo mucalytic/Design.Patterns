@@ -2,6 +2,7 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AConvert_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F106927d79dae58d552cf02cc6259937374ebd8103ac66086c62595612c9a6a_003FConvert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALateBoundTestFramework_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F22647a7960d2619ab733924a2acfee09d32a8827c8c680a37cc4863678abec_003FLateBoundTestFramework_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AParallelEnumerable_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F68de9acf475c7631e2396e062c963356d03028e73ee91e94e94885c5ec94_003FParallelEnumerable_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AReceivedCallsExceptionThrower_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F402b2077f38742cb9b381ab9e79e493229c00_003Fcb_003F0921cf3a_003FReceivedCallsExceptionThrower_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=33fd6a5d_002D3d01_002D423a_002Da58a_002Dfe5f27ecbb3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::4D11D094-FD3B-493A-8261-811379B75B32::net9.0::Design.Patterns.Factory.Method.LevelTests&lt;/TestId&gt;&#xD;
@@ -44,5 +45,7 @@
     &lt;TestId&gt;xUnit::44EF0DB0-C027-49FB-B318-CC335A9E7A80::net8.0::Design.Patterns.State.StateTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3E56FFE8-BD53-4F9A-BE6C-48E9736B619B::net8.0::Design.Patterns.State.Game.StateTests.Test1&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::3E56FFE8-BD53-4F9A-BE6C-48E9736B619B::net8.0::Design.Patterns.State.Game.StateTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::22F47B5F-2BD9-4DA3-B04B-1AC03EB11AA1::net8.0::Design.Patterns.Proxy.ProxyTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::42656BE7-C583-40C5-B39A-F97FED709BF2::net8.0::Design.Patterns.Proxy.Hi.Res.Image.ProxyTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
