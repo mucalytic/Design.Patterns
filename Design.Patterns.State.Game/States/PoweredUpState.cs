@@ -4,18 +4,21 @@ namespace Design.Patterns.State.Game.States;
 
 public class PoweredUpState : ICharacterState
 {
-    public void HandleDamage(Character character, int damage)
-    {
-        throw new NotImplementedException();
-    }
+    private int _powerUpDuration = 10;
+    
+    public void HandleDamageTaken(Character character, int amount) =>
+        character.ModifyHealth(-(amount / 2));
 
-    public void HandlePowerUp(Character character)
-    {
-        throw new NotImplementedException();
-    }
+    public void HandlePowerUpCollected(Character character) =>
+        _powerUpDuration = 10;
 
     public void HandleUpdate(Character character)
     {
-        throw new NotImplementedException();
+        _powerUpDuration--;
+        if (_powerUpDuration > 0) return;
+        character.SetState(new NormalState());
+        character.SetPowerUp(false);
     }
+
+    public string Name { get; } = "Powered Up";
 }

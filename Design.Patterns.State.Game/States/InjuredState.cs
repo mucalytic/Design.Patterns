@@ -4,18 +4,29 @@ namespace Design.Patterns.State.Game.States;
 
 public class InjuredState : ICharacterState
 {
-    public void HandleDamage(Character character, int damage)
+    public void HandleDamageTaken(Character character, int amount)
     {
-        throw new NotImplementedException();
+        character.ModifyHealth(-(amount * 2));
+        if (character.Health <= 0)
+        {
+            character.SetState(new DefeatedState());
+        }
     }
 
-    public void HandlePowerUp(Character character)
+    public void HandlePowerUpCollected(Character character)
     {
-        throw new NotImplementedException();
+        character.ModifyHealth(50);
+        character.SetState(new NormalState());
     }
 
     public void HandleUpdate(Character character)
     {
-        throw new NotImplementedException();
+        character.ModifyHealth(2);
+        if (character.Health >= 30)
+        {
+            character.SetState(new NormalState());
+        }
     }
+
+    public string Name { get; } = "Injured";
 }

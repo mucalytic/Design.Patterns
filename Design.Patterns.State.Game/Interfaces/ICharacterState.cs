@@ -2,7 +2,8 @@
 
 public interface ICharacterState
 {
-    void HandleDamage(Character character, int damage);
-    void HandlePowerUp(Character character);
+    void HandleDamageTaken(Character character, int amount);
+    void HandlePowerUpCollected(Character character);
     void HandleUpdate(Character character);
+    string Name { get; }
 }

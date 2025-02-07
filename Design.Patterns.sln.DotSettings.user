@@ -41,5 +41,8 @@
     &lt;TestId&gt;xUnit::8EDB2A66-718E-4413-867B-C473EED38A0A::net8.0::Design.Patterns.Composite.University.CompositeTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EF80D37B-B744-4991-890C-4568E177743F::net8.0::Design.Patterns.Facade.FacadeTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::4297E3CC-8FF7-4CF9-BC31-9019359D3D96::net8.0::Design.Patterns.Facade.YouTube.FacadeTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::44EF0DB0-C027-49FB-B318-CC335A9E7A80::net8.0::Design.Patterns.State.StateTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3E56FFE8-BD53-4F9A-BE6C-48E9736B619B::net8.0::Design.Patterns.State.Game.StateTests.Test1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3E56FFE8-BD53-4F9A-BE6C-48E9736B619B::net8.0::Design.Patterns.State.Game.StateTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
