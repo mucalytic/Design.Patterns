@@ -1,11 +1,13 @@
 ﻿using Design.Patterns.State.Interfaces;
+using Xunit.Abstractions;
 
 namespace Design.Patterns.State.States;
 
-public class ConcreteStateB : IState
+public class ConcreteStateB(ITestOutputHelper helper) : IState
 {
     public void Handle(Context context)
     {
-        throw new NotImplementedException();
+        helper.WriteLine($"{nameof(ConcreteStateB)}.{nameof(Handle)}");
+        context.SetState(new ConcreteStateA(helper));
     }
 }
