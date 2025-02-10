@@ -11,9 +11,9 @@ public abstract class AbstractClass(ITestOutputHelper helper)
         Hook();
     }
 
-    public abstract void PrimitiveOperation1();
-    public abstract void PrimitiveOperation2();
+    protected abstract void PrimitiveOperation1();
+    protected abstract void PrimitiveOperation2();
     
-    public virtual void Hook() =>
+    protected virtual void Hook() =>
         helper.WriteLine($"{nameof(AbstractClass)}:{nameof(Hook)} called");
 }

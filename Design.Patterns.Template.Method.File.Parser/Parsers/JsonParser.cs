@@ -10,6 +10,6 @@ public class JsonParser(
     IDateTimeProvider dateTimeProvider) :
     FileParser(helper, fileSystem, dateTimeProvider)
 {
-    public override Dictionary<string, string> ParseContent(string content) =>
+    protected override Dictionary<string, string> ParseContent(string content) =>
         jsonSerialiser.Deserialise<Dictionary<string, string>>(content);
 }

@@ -9,7 +9,7 @@ public class CsvParser(
     IDateTimeProvider dateTimeProvider) :
     FileParser(helper, fileSystem, dateTimeProvider)
 {
-    public override Dictionary<string, string> ParseContent(string content)
+    protected override Dictionary<string, string> ParseContent(string content)
     {
         var result = new Dictionary<string, string>();
         foreach (var row in content.Split(Environment.NewLine))
@@ -20,7 +20,7 @@ public class CsvParser(
         return result;
     }
 
-    public override void EnrichData(Dictionary<string, string> data)
+    protected override void EnrichData(Dictionary<string, string> data)
     {
         base.EnrichData(data);
         data["DataType"] = "CSV";

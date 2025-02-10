@@ -26,15 +26,15 @@ public abstract class FileParser(ITestOutputHelper helper, IFileSystem fileSyste
         return data;
     }
 
-    public virtual void LogOperation(string message) =>
+    protected virtual void LogOperation(string message) =>
         helper.WriteLine($"{dateTimeProvider.UtcNow:HH:mm:ss}: {message}");
 
-    public virtual void EnrichData(Dictionary<string, string> data) =>
+    protected virtual void EnrichData(Dictionary<string, string> data) =>
         data["ParsedAt"] = dateTimeProvider.UtcNow.ToString(CultureInfo.InvariantCulture);
 
-    public virtual void ValidateData(Dictionary<string, string> data) { }
+    protected virtual void ValidateData(Dictionary<string, string> data) { }
 
-    public abstract Dictionary<string, string> ParseContent(string content);
+    protected abstract Dictionary<string, string> ParseContent(string content);
     
     private void ValidateFile(string path)
     {
