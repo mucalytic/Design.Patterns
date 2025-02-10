@@ -25,4 +25,13 @@ public class CsvParser(
         base.EnrichData(data);
         data["DataType"] = "CSV";
     }
+
+    protected override void ValidateData(Dictionary<string, string> data)
+    {
+        base.ValidateData(data);
+        if (data["DataType"] != "CSV")
+        {
+            throw new Exception("Invalid data type");
+        }
+    }
 }
