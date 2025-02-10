@@ -126,6 +126,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Proxy.Hi.Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Template.Method", "Design.Patterns.Template.Method\Design.Patterns.Template.Method.csproj", "{825C00CD-2423-4B39-A606-1A9E85E1674E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Template.Method.File.Parser", "Design.Patterns.Template.Method.File.Parser\Design.Patterns.Template.Method.File.Parser.csproj", "{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -280,6 +282,10 @@ Global
 		{825C00CD-2423-4B39-A606-1A9E85E1674E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{825C00CD-2423-4B39-A606-1A9E85E1674E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{825C00CD-2423-4B39-A606-1A9E85E1674E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4D11D094-FD3B-493A-8261-811379B75B32} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -342,5 +348,6 @@ Global
 		{22F47B5F-2BD9-4DA3-B04B-1AC03EB11AA1} = {2D724339-1F43-4E10-8B05-A3C2B799A3C2}
 		{42656BE7-C583-40C5-B39A-F97FED709BF2} = {2D724339-1F43-4E10-8B05-A3C2B799A3C2}
 		{825C00CD-2423-4B39-A606-1A9E85E1674E} = {9EB01F34-460E-4A56-9637-2B07B7A71BC8}
+		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E} = {9EB01F34-460E-4A56-9637-2B07B7A71BC8}
 	EndGlobalSection
 EndGlobal
