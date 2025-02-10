@@ -5,9 +5,9 @@ namespace Design.Patterns.Template.Method.File.Parser.Parsers;
 
 public class CsvParser(
     ITestOutputHelper helper,
-    IFileSystem fileSystem,
-    IDateTimeProvider dateTimeProvider) :
-    FileParser(helper, fileSystem, dateTimeProvider)
+    IDateTimeProvider dateTimeProvider,
+    IFileSystemProvider fileSystemProvider) :
+    FileParser(helper, dateTimeProvider, fileSystemProvider)
 {
     protected override Dictionary<string, string> ParseContent(string content)
     {

@@ -1,6 +1,7 @@
-using System.Globalization;
 using Design.Patterns.Template.Method.File.Parser.Interfaces;
+using Design.Patterns.Template.Method.File.Parser.Providers;
 using Design.Patterns.Template.Method.File.Parser.Parsers;
+using System.Globalization;
 using Xunit.Abstractions;
 using FluentAssertions;
 using NSubstitute;
@@ -13,7 +14,6 @@ public class TemplateMethodTests
 
     private readonly IDateTimeProvider _dateTimeProvider = Substitute.For<IDateTimeProvider>();
     private readonly ITestOutputHelper _helper = Substitute.For<ITestOutputHelper>();
-    private readonly IFileSystem _fileSystem = Substitute.For<IFileSystem>();
     
     [Fact]
     public void CsvParser_ShouldReturnExpectedResult()
@@ -21,11 +21,9 @@ public class TemplateMethodTests
         // arrange
         var dateTime = new DateTime(1911, 03, 13);
         const string filePath = @$"{FilePath}\config.csv";
-        var fileParser = new CsvParser(_helper, _fileSystem, _dateTimeProvider);
-
-        _fileSystem.ReadAllText(filePath).Returns(System.IO.File.ReadAllText(filePath));
-        _fileSystem.FileExists(filePath).Returns(System.IO.File.Exists(filePath));
-        _fileSystem.FileSize(filePath).Returns(new FileInfo(filePath).Length);
+        
+        var fileSystemProvider = new FileSystemProvider();
+        var fileParser = new CsvParser(_helper, _dateTimeProvider, fileSystemProvider);
         
         _dateTimeProvider.UtcNow.Returns(dateTime);
         
@@ -53,14 +51,12 @@ public class TemplateMethodTests
     {
         // arrange
         var dateTime = new DateTime(1911, 03, 13);
-        var jsonSerialiser = new JsonSerialiser();
         const string filePath = @$"{FilePath}\config.json";
-        var fileParser = new JsonParser(_helper, _fileSystem, jsonSerialiser, _dateTimeProvider);
-
-        _fileSystem.ReadAllText(filePath).Returns(System.IO.File.ReadAllText(filePath));
-        _fileSystem.FileExists(filePath).Returns(System.IO.File.Exists(filePath));
-        _fileSystem.FileSize(filePath).Returns(new FileInfo(filePath).Length);
         
+        var jsonSerialiser = new JsonSerialiser();
+        var fileSystemProvider = new FileSystemProvider();
+        var fileParser = new JsonParser(_helper, jsonSerialiser, _dateTimeProvider, fileSystemProvider);
+
         _dateTimeProvider.UtcNow.Returns(dateTime);
 
         // act

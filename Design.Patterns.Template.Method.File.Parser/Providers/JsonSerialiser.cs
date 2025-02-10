@@ -1,7 +1,7 @@
 ﻿using Design.Patterns.Template.Method.File.Parser.Interfaces;
 using System.Text.Json;
 
-namespace Design.Patterns.Template.Method.File.Parser;
+namespace Design.Patterns.Template.Method.File.Parser.Providers;
 
 public class JsonSerialiser : IJsonSerialiser
 {

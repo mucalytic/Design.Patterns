@@ -5,11 +5,11 @@ namespace Design.Patterns.Template.Method.File.Parser.Parsers;
 
 public class JsonParser(
     ITestOutputHelper helper,
-    IFileSystem fileSystem,
     IJsonSerialiser jsonSerialiser,
-    IDateTimeProvider dateTimeProvider) :
-    FileParser(helper, fileSystem, dateTimeProvider)
+    IDateTimeProvider dateTimeProvider,
+    IFileSystemProvider fileSystemProvider) :
+    FileParser(helper, dateTimeProvider, fileSystemProvider)
 {
     protected override Dictionary<string, string> ParseContent(string content) =>
-        jsonSerialiser.Deserialise<Dictionary<string, string>>(content);
+        jsonSerialiser.Deserialise<Dictionary<string, string>>(content) ?? new Dictionary<string, string>();
 }

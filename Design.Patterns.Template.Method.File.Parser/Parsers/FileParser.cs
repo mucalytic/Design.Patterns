@@ -4,7 +4,10 @@ using Xunit.Abstractions;
 
 namespace Design.Patterns.Template.Method.File.Parser.Parsers;
 
-public abstract class FileParser(ITestOutputHelper helper, IFileSystem fileSystem, IDateTimeProvider dateTimeProvider)
+public abstract class FileParser(
+    ITestOutputHelper helper,
+    IDateTimeProvider dateTimeProvider,
+    IFileSystemProvider fileSystemProvider)
 {
     public Dictionary<string, string> ParseFile(string path)
     {
@@ -12,7 +15,7 @@ public abstract class FileParser(ITestOutputHelper helper, IFileSystem fileSyste
         ValidateFile(path);
         
         LogOperation("Loading the file");
-        var content = fileSystem.ReadAllText(path);
+        var content = fileSystemProvider.ReadAllText(path);
         
         LogOperation("Parsing the content");
         var data = ParseContent(content);
@@ -38,11 +41,11 @@ public abstract class FileParser(ITestOutputHelper helper, IFileSystem fileSyste
     
     private void ValidateFile(string path)
     {
-        if (!fileSystem.FileExists(path))
+        if (!fileSystemProvider.FileExists(path))
         {
             throw new FileNotFoundException($"File {path} does not exist");
         }
-        if (fileSystem.FileSize(path) == 0)
+        if (fileSystemProvider.FileSize(path) == 0)
         {
             throw new Exception($"File {path} has zero bytes");
         }
