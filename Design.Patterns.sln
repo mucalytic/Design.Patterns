@@ -128,6 +128,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Template.Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Template.Method.File.Parser", "Design.Patterns.Template.Method.File.Parser\Design.Patterns.Template.Method.File.Parser.csproj", "{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Mediator", "Design.Patterns.Mediator\Design.Patterns.Mediator.csproj", "{E4B1ED8E-58DB-44B3-BBB9-43D544435A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Mediator.Chat.Room", "Design.Patterns.Mediator.Chat.Room\Design.Patterns.Mediator.Chat.Room.csproj", "{9FC56C48-C7C2-45DC-874E-AA9770634F30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -286,6 +290,14 @@ Global
 		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B1ED8E-58DB-44B3-BBB9-43D544435A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B1ED8E-58DB-44B3-BBB9-43D544435A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B1ED8E-58DB-44B3-BBB9-43D544435A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B1ED8E-58DB-44B3-BBB9-43D544435A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC56C48-C7C2-45DC-874E-AA9770634F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC56C48-C7C2-45DC-874E-AA9770634F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC56C48-C7C2-45DC-874E-AA9770634F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC56C48-C7C2-45DC-874E-AA9770634F30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4D11D094-FD3B-493A-8261-811379B75B32} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -349,5 +361,7 @@ Global
 		{42656BE7-C583-40C5-B39A-F97FED709BF2} = {2D724339-1F43-4E10-8B05-A3C2B799A3C2}
 		{825C00CD-2423-4B39-A606-1A9E85E1674E} = {9EB01F34-460E-4A56-9637-2B07B7A71BC8}
 		{C8017C03-FC5C-4C8D-B123-1837B4EF2C4E} = {9EB01F34-460E-4A56-9637-2B07B7A71BC8}
+		{E4B1ED8E-58DB-44B3-BBB9-43D544435A8C} = {F7700D09-F973-4FEB-AE78-F6FC966CB5AE}
+		{9FC56C48-C7C2-45DC-874E-AA9770634F30} = {F7700D09-F973-4FEB-AE78-F6FC966CB5AE}
 	EndGlobalSection
 EndGlobal

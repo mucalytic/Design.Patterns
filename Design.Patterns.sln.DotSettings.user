@@ -4,52 +4,7 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALateBoundTestFramework_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F22647a7960d2619ab733924a2acfee09d32a8827c8c680a37cc4863678abec_003FLateBoundTestFramework_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AParallelEnumerable_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F68de9acf475c7631e2396e062c963356d03028e73ee91e94e94885c5ec94_003FParallelEnumerable_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AReceivedCallsExceptionThrower_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fmucal_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F402b2077f38742cb9b381ab9e79e493229c00_003Fcb_003F0921cf3a_003FReceivedCallsExceptionThrower_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\mucal\AppData\Local\JetBrains\Rider2024.3\resharper-host\temp\Rider\vAny\CoverageData\_Design.Patterns.-146332619\Snapshot\snapshot.utdcvr</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=33fd6a5d_002D3d01_002D423a_002Da58a_002Dfe5f27ecbb3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::4D11D094-FD3B-493A-8261-811379B75B32::net9.0::Design.Patterns.Factory.Method.LevelTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4D11D094-FD3B-493A-8261-811379B75B32::net9.0::Design.Patterns.Factory.Method.UnitTest1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests.Test&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests.SimpleProductBuilder_ShouldProduceSimpleProduct&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests.ComplexProductBuilder_ShouldProduceComplexProduct&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3B451BE8-AC1F-4509-9B95-E5C9F52D2664::net8.0::Design.Patterns.Classic.Builder.ClassicBuilderTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::AA8B9624-E01D-4F95-BA5C-149393352F19::net8.0::Design.Patterns.Classic.Builder.Without.Director.ClassicBuilderTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::1E5E5696-CB4A-420F-AA57-444080B86F22::net8.0::Design.Patterns.Nested.Builder.NestedBuilderTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2EE7B125-3E15-41E5-81CF-DC6AFEEF4F1D::net8.0::Design.Patterns.Fluent.Builder.FluentBuilderTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::652B5F53-10F8-43CD-AED2-7D163C6DE06C::net8.0::Design.Patterns.Inner.Builder.InnerBuilderTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::37255623-BC03-4374-8527-54C088F907B1::net8.0::Design.Patterns.Naive.Singleton.NaiveSingletonTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::44ED33E9-78F5-4D70-AB8F-029DF92D4A2E::net8.0::Design.Patterns.Naive.Singleton.Lazy.Loading.NaiveSingletonTests.Singleton_IsNotThreadSafe&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::44ED33E9-78F5-4D70-AB8F-029DF92D4A2E::net8.0::Design.Patterns.Naive.Singleton.Lazy.Loading.NaiveSingletonTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::38A46910-FF80-4238-BD53-FF52EB196A79::net8.0::Design.Patterns.Naive.Singleton.Lazy.Loading.Thread.Safe.NaiveSingletonTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4EF8C64A-A1FE-4A59-9B69-9BB03515813B::net8.0::Design.Patterns.Singleton.Lazy.Loading.Thread.Safe.SingletonTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::CF6FF982-D0AD-4C05-9A6F-BD203EF7AF48::net8.0::Design.Patterns.Cool.Singleton.CoolSingletonTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4A8ED4C4-EA7A-4AC5-88B2-09EF190D2A79::net8.0::Design.Patterns.Singleton.Dependency.Injection.SingletonTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::40101447-B88B-43FC-A9C3-9849D4595D19::net8.0::Design.Patterns.Strategy.StrategyTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::9E89D79E-ADB4-4A8C-A6F3-D3F3C3BF8F8E::net8.0::Design.Patterns.Payment.Processing.Strategy.StrategyTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::06F6190C-6A27-4BFC-852F-A98C54BD7F04::net8.0::Design.Patterns.Command.CommandTests.Test1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::06F6190C-6A27-4BFC-852F-A98C54BD7F04::net8.0::Design.Patterns.Command.CommandTests.Command_IsReceivedAndInvoked&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::06F6190C-6A27-4BFC-852F-A98C54BD7F04::net8.0::Design.Patterns.Command.CommandTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::7660C3F9-8CD6-43D4-9EAB-3C5947C3DDE6::net8.0::Design.Patterns.Command.Cli.CommandTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::995D0984-60D7-4C58-BF37-69E528785A7F::net8.0::Design.Patterns.Observer.Pull.Based.ObserverTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::9397F71F-52D5-40A4-B3AC-C24FC024E46A::net8.0::Design.Patterns.Observer.Push.Based.ObserverTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::515ECB6E-7F79-44A2-B1CA-896C077485B7::net8.0::Design.Patterns.Observer.Game.Engine.ObservableTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3FAC067D-02C1-4BB9-B289-9385A79D98F4::net8.0::Design.Patterns.Decorator.DecoratorTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3FAC067D-02C1-4BB9-B289-9385A79D98F4::net8.0::Design.Patterns.Decorator.Tesla.DecoratorTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::988C4A33-F2A8-4263-A4B4-6B4C635ACCC7::net8.0::Design.Patterns.Adapter.AdapterTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::34A5938D-51D6-4FEB-BE9A-541579E6F8D5::net8.0::Design.Patterns.Adapter.Game.Engine.AdapterTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::72A307CB-849D-4A66-9471-BCF35D7E2703::net9.0::Design.Patterns.Simple.Factory.SimpleFactoryTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::AFF55BFF-AB64-4C4D-9BD8-9B2ACB886754::net9.0::Design.Patterns.Abstract.Factory.AbstractFactoryTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::0096980F-6986-474D-A981-5F68EDD88213::net8.0::Design.Patterns.Abstract.Factory.Quest.AbstractFactoryTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E555F8D0-DD9A-4DD9-B18C-2C5AA6909DC6::net8.0::Design.Patterns.Composite.CompositeTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::8EDB2A66-718E-4413-867B-C473EED38A0A::net8.0::Design.Patterns.Composite.University.CompositeTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::EF80D37B-B744-4991-890C-4568E177743F::net8.0::Design.Patterns.Facade.FacadeTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4297E3CC-8FF7-4CF9-BC31-9019359D3D96::net8.0::Design.Patterns.Facade.YouTube.FacadeTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::44EF0DB0-C027-49FB-B318-CC335A9E7A80::net8.0::Design.Patterns.State.StateTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3E56FFE8-BD53-4F9A-BE6C-48E9736B619B::net8.0::Design.Patterns.State.Game.StateTests.Test1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::3E56FFE8-BD53-4F9A-BE6C-48E9736B619B::net8.0::Design.Patterns.State.Game.StateTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::22F47B5F-2BD9-4DA3-B04B-1AC03EB11AA1::net8.0::Design.Patterns.Proxy.ProxyTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::42656BE7-C583-40C5-B39A-F97FED709BF2::net8.0::Design.Patterns.Proxy.Hi.Res.Image.ProxyTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::825C00CD-2423-4B39-A606-1A9E85E1674E::net8.0::Design.Patterns.Template.Method.TemplateMethodTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::C8017C03-FC5C-4C8D-B123-1837B4EF2C4E::net8.0::Design.Patterns.Template.Method.File.Parser.TemplateMethodTests.CsvParser_ShouldReturnExpectedResult&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::C8017C03-FC5C-4C8D-B123-1837B4EF2C4E::net8.0::Design.Patterns.Template.Method.File.Parser.TemplateMethodTests&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
