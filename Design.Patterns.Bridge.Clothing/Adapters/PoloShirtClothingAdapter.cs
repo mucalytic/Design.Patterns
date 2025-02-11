@@ -1,0 +1,22 @@
+﻿using Design.Patterns.Bridge.Clothing.Interfaces;
+using Design.Patterns.Bridge.Clothing.Models;
+
+namespace Design.Patterns.Bridge.Clothing.Adapters;
+
+public class PoloShirtClothingAdapter(PoloShirt poloShirt) : IClothingFormatter
+{
+    public Uri FormatImageUrl()
+    {
+        throw new NotImplementedException();
+    }
+
+    public string FormatTitle()
+    {
+        throw new NotImplementedException();
+    }
+
+    public string FormatDescription()
+    {
+        throw new NotImplementedException();
+    }
+}
