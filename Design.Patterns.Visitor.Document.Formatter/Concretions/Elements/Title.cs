@@ -2,13 +2,10 @@
 
 namespace Design.Patterns.Visitor.Document.Formatter.Concretions.Elements;
 
-public class Title : IElement
+public class Title(string text) : IElement
 {
-    private string _text = string.Empty;
+    public string Text { get; } = text;
     
-    public void SetText(string text) =>
-        _text = text;
-
     public void Accept(IVisitor visitor) =>
         visitor.Visit(this);
 }

@@ -2,12 +2,9 @@
 
 namespace Design.Patterns.Visitor.Document.Formatter.Concretions.Elements;
 
-public class Subtitle : IElement
+public class Subtitle(string text) : IElement
 {
-    private string _text = string.Empty;
-    
-    public void SetText(string text) =>
-        _text = text;
+    public string Text { get; } = text;
 
     public void Accept(IVisitor visitor) =>
         visitor.Visit(this);
