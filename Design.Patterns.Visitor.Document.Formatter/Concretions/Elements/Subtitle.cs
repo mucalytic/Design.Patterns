@@ -10,5 +10,5 @@ public class Subtitle : IElement
         _text = text;
 
     public void Accept(IVisitor visitor) =>
-        visitor.VisitSubtitle(this);
+        visitor.Visit(this);
 }

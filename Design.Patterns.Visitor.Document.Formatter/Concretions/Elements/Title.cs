@@ -10,5 +10,5 @@ public class Title : IElement
         _text = text;
 
     public void Accept(IVisitor visitor) =>
-        visitor.VisitTitle(this);
+        visitor.Visit(this);
 }

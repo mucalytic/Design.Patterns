@@ -4,7 +4,7 @@ namespace Design.Patterns.Visitor.Document.Formatter.Interfaces;
 
 public interface IVisitor
 {
-    void VisitTitle(Title title);
-    void VisitSubtitle(Subtitle subtitle);
-    void VisitContent(Content content);
+    void Visit(Title title);
+    void Visit(Subtitle subtitle);
+    void Visit(Content content);
 }

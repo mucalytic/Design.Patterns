@@ -10,5 +10,5 @@ public class Content : IElement
         _text = text;
 
     public void Accept(IVisitor visitor) =>
-        visitor.VisitContent(this);
+        visitor.Visit(this);
 }

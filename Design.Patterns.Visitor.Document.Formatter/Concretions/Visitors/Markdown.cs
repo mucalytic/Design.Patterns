@@ -5,17 +5,17 @@ namespace Design.Patterns.Visitor.Document.Formatter.Concretions.Visitors;
 
 public class Markdown : IVisitor
 {
-    public void VisitTitle(Title title)
+    public void Visit(Title title)
     {
         throw new NotImplementedException();
     }
 
-    public void VisitSubtitle(Subtitle subtitle)
+    public void Visit(Subtitle subtitle)
     {
         throw new NotImplementedException();
     }
 
-    public void VisitContent(Content content)
+    public void Visit(Content content)
     {
         throw new NotImplementedException();
     }
