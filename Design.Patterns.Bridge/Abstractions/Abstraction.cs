@@ -2,7 +2,9 @@
 
 namespace Design.Patterns.Bridge.Abstractions;
 
-public abstract class Abstraction
+public abstract class Abstraction(IImplementor implementor)
 {
-    private IImplementor _implementor;
+    protected IImplementor Implementor { get; } = implementor;
+
+    public abstract void Foo();
 }

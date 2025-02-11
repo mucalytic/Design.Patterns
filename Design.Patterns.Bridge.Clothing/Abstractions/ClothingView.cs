@@ -2,9 +2,9 @@
 
 namespace Design.Patterns.Bridge.Clothing.Abstractions;
 
-public abstract class ClothingView
+public abstract class ClothingView(IClothingFormatter clothingFormatter)
 {
-    private IClothingFormatter _clothingFormatter;
+    protected IClothingFormatter ClothingFormatter { get; } = clothingFormatter;
 
-    public void Display() { }
+    public abstract void Display();
 }

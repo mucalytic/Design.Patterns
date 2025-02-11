@@ -1,22 +1,16 @@
 ﻿using Design.Patterns.Bridge.Clothing.Interfaces;
-using Design.Patterns.Bridge.Clothing.Models;
+using Design.Patterns.Bridge.Clothing.Items;
 
 namespace Design.Patterns.Bridge.Clothing.Adapters;
 
 public class ShoesClothingAdapter(Shoes shoes) : IClothingFormatter
 {
-    public Uri FormatImageUrl()
-    {
-        throw new NotImplementedException();
-    }
+    public string FormatTitle() =>
+        $"{shoes.Brand} {shoes.Model}";
 
-    public string FormatTitle()
-    {
-        throw new NotImplementedException();
-    }
+    public string FormatDescription() =>
+        $"{shoes.Colour} {shoes.Brand} {shoes.Model} shoes ({shoes.Size})";
 
-    public string FormatDescription()
-    {
-        throw new NotImplementedException();
-    }
+    public Uri FormatImageUrl() =>
+        new($"https://clothing.com/shoes/{shoes.Brand.ToLower()}/{shoes.Model.ToLower()}/{shoes.Colour.ToLower()}.png");
 }

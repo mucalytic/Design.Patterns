@@ -1,5 +1,5 @@
 ﻿using Design.Patterns.Bridge.Clothing.Interfaces;
-using Design.Patterns.Bridge.Clothing.Models;
+using Design.Patterns.Bridge.Clothing.Items;
 
 namespace Design.Patterns.Bridge.Clothing.Adapters;
 
