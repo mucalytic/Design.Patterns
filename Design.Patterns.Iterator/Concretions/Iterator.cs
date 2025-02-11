@@ -2,20 +2,23 @@
 
 namespace Design.Patterns.Iterator.Concretions;
 
-public class Iterator<T> : IIterator<T>
+public class Iterator<T>(Aggregate<T> aggregate) : IIterator<T>
 {
-    public bool HasNext()
-    {
-        throw new NotImplementedException();
-    }
+    private int _index = -1;
+    
+    public bool HasNext() =>
+        _index < aggregate.Count - 1;
 
     public T Next()
     {
-        throw new NotImplementedException();
+        if (!HasNext())
+        {
+            throw new InvalidOperationException();
+        }
+        _index++;
+        return aggregate.GetItemAt(_index);
     }
 
-    public void Reset()
-    {
-        throw new NotImplementedException();
-    }
+    public void Reset() =>
+        _index = -1;
 }

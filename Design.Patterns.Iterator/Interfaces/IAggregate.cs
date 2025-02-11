@@ -1,6 +1,7 @@
 ﻿namespace Design.Patterns.Iterator.Interfaces;
 
-public interface IAggregate<out T>
+public interface IAggregate<T>
 {
     IIterator<T> CreateIterator();
+    void         Add(T value);
 }
