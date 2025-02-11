@@ -1,13 +1,14 @@
 ﻿using Design.Patterns.Visitor.Concretions.Elements;
 using Design.Patterns.Visitor.Interfaces;
+using Xunit.Abstractions;
 
 namespace Design.Patterns.Visitor.Concretions.Visitors;
 
-public class Visitor1 : IVisitor
+public class Visitor1(ITestOutputHelper helper) : IVisitor
 {
     public void Visit(Element1 element) =>
-        element.Operation1();
+        helper.WriteLine($"{nameof(Visitor1)} visited {element.Operation1()}");
 
     public void Visit(Element2 element) =>
-        element.Operation2();
+        helper.WriteLine($"{nameof(Visitor1)} visited {element.Operation2()}");
 }
