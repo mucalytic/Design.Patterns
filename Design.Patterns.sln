@@ -136,6 +136,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Memento", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Memento.Text.Box", "Design.Patterns.Memento.Text.Box\Design.Patterns.Memento.Text.Box.csproj", "{8D392479-9844-44D8-AE33-5C370DF0AC75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Prototype", "Design.Patterns.Prototype\Design.Patterns.Prototype.csproj", "{51226CC2-1062-4095-B3E8-6B2D45828279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -310,6 +312,10 @@ Global
 		{8D392479-9844-44D8-AE33-5C370DF0AC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D392479-9844-44D8-AE33-5C370DF0AC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D392479-9844-44D8-AE33-5C370DF0AC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51226CC2-1062-4095-B3E8-6B2D45828279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51226CC2-1062-4095-B3E8-6B2D45828279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51226CC2-1062-4095-B3E8-6B2D45828279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51226CC2-1062-4095-B3E8-6B2D45828279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4D11D094-FD3B-493A-8261-811379B75B32} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -377,5 +383,6 @@ Global
 		{9FC56C48-C7C2-45DC-874E-AA9770634F30} = {F7700D09-F973-4FEB-AE78-F6FC966CB5AE}
 		{50F39AA7-3104-48C1-90A1-3615F3755880} = {EDD5FE89-D753-484D-BB0E-EC9EA63B66C7}
 		{8D392479-9844-44D8-AE33-5C370DF0AC75} = {EDD5FE89-D753-484D-BB0E-EC9EA63B66C7}
+		{51226CC2-1062-4095-B3E8-6B2D45828279} = {CB75BD1C-FD0B-4748-981B-FC5E59B10994}
 	EndGlobalSection
 EndGlobal
