@@ -1,6 +1,6 @@
 ﻿namespace Design.Patterns.Iterator;
 
-public class UnitTest1
+public class IteratorTests
 {
     [Fact]
     public void Test1() { }
