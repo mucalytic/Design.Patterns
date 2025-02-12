@@ -150,6 +150,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Bridge.Clot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Iterator.Prime.Numbers", "Design.Patterns.Iterator.Prime.Numbers\Design.Patterns.Iterator.Prime.Numbers.csproj", "{A5EDAA55-BD71-4DA8-BC74-911F7F17C8EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Iterator.Prime.Numbers.Enumerable", "Design.Patterns.Iterator.Prime.Numbers.Enumerable\Design.Patterns.Iterator.Prime.Numbers.Enumerable.csproj", "{C33C839D-5DC8-4249-B827-97D84717AAAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -352,6 +354,10 @@ Global
 		{A5EDAA55-BD71-4DA8-BC74-911F7F17C8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5EDAA55-BD71-4DA8-BC74-911F7F17C8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5EDAA55-BD71-4DA8-BC74-911F7F17C8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33C839D-5DC8-4249-B827-97D84717AAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33C839D-5DC8-4249-B827-97D84717AAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33C839D-5DC8-4249-B827-97D84717AAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33C839D-5DC8-4249-B827-97D84717AAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4D11D094-FD3B-493A-8261-811379B75B32} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -426,5 +432,6 @@ Global
 		{73CC5BB9-0B58-4AF1-8980-E544A18AC406} = {3445F9F7-9DDE-4F80-9700-8AD4095C8F0A}
 		{F3C187D1-7CCD-4196-8573-CC60F925B638} = {3445F9F7-9DDE-4F80-9700-8AD4095C8F0A}
 		{A5EDAA55-BD71-4DA8-BC74-911F7F17C8EA} = {19ED9BAF-410F-4CF4-A0D0-5268DB787B35}
+		{C33C839D-5DC8-4249-B827-97D84717AAAE} = {19ED9BAF-410F-4CF4-A0D0-5268DB787B35}
 	EndGlobalSection
 EndGlobal
