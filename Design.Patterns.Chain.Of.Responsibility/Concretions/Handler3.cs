@@ -3,13 +3,13 @@ using Xunit.Abstractions;
 
 namespace Design.Patterns.Chain.Of.Responsibility.Concretions;
 
-public class Handler1(ITestOutputHelper helper) : Handler
+public class Handler3(ITestOutputHelper helper) : Handler
 {
     public override void Handle(string request)
     {
-        if (request == "hello")
+        if (request == "world")
         {
-            helper.WriteLine($"{nameof(Handler1)} handled request");
+            helper.WriteLine($"{nameof(Handler3)} handled request");
             return;
         }
         Successor?.Handle(request);
