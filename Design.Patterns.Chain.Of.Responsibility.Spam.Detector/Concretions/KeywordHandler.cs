@@ -1,10 +1,11 @@
 ﻿using Design.Patterns.Chain.Of.Responsibility.Spam.Detector.Abstractions;
+using Design.Patterns.Chain.Of.Responsibility.Spam.Detector.Models;
 
 namespace Design.Patterns.Chain.Of.Responsibility.Spam.Detector.Concretions;
 
-public class Handler2 : Handler
+public class KeywordHandler : SpamHandler
 {
-    public override void Handle(string request)
+    public override void HandleSpam(Email email)
     {
         throw new NotImplementedException();
     }
