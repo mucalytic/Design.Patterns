@@ -2,12 +2,9 @@
 
 namespace Design.Patterns.Chain.Of.Responsibility.Spam.Detector.Abstractions;
 
-public abstract class SpamHandler
+public abstract class SpamHandler(SpamHandler? successor)
 {
-    protected SpamHandler? Successor { get; private set; }
+    protected SpamHandler? Successor { get; } = successor;
 
-    public void SetSuccessor(SpamHandler successor) =>
-        Successor = successor;
-    
-    public abstract void HandleSpam(Email email);
+    public abstract bool HandleSpam(Email email);
 }
