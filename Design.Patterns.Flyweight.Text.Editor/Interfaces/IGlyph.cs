@@ -1,8 +1,6 @@
-﻿using System.Reactive;
-
-namespace Design.Patterns.Flyweight.Text.Editor.Interfaces;
+﻿namespace Design.Patterns.Flyweight.Text.Editor.Interfaces;
 
 public interface IGlyph
 {
-    Unit Operation(object extrinsicData);
+    void Render(int x, int y, int size, string colour);
 }
