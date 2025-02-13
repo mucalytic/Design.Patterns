@@ -13,5 +13,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dfbb5eb5_002D65ab_002D4d0e_002Dacb4_002Dabd2364b547b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::AADF65B3-A19E-4B39-8FF5-815C2A104BB3::net8.0::Design.Patterns.Interpreter.Maths.InterpreterTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1E12B7FA-AFB0-4D7C-B593-E6115B26FEB5::net8.0::Design.Patterns.Interpreter.Search.Query.InterpreterTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
