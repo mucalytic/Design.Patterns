@@ -162,6 +162,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Interpreter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Interpreter.Search.Query", "Design.Patterns.Interpreter.Search.Query\Design.Patterns.Interpreter.Search.Query.csproj", "{1E12B7FA-AFB0-4D7C-B593-E6115B26FEB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.Patterns.Flyweight", "Design.Patterns.Flyweight\Design.Patterns.Flyweight.csproj", "{95B4F0C8-374A-47DA-86D4-29D086CAABCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -388,6 +390,10 @@ Global
 		{1E12B7FA-AFB0-4D7C-B593-E6115B26FEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E12B7FA-AFB0-4D7C-B593-E6115B26FEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E12B7FA-AFB0-4D7C-B593-E6115B26FEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B4F0C8-374A-47DA-86D4-29D086CAABCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B4F0C8-374A-47DA-86D4-29D086CAABCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B4F0C8-374A-47DA-86D4-29D086CAABCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B4F0C8-374A-47DA-86D4-29D086CAABCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4D11D094-FD3B-493A-8261-811379B75B32} = {A4D72422-8464-4C59-A2C2-AB4F0CA13058}
@@ -468,5 +474,6 @@ Global
 		{6E817DA1-333D-46C8-ABD7-6494EC791F1E} = {400B5390-660B-4C8C-899F-E37BD4793F63}
 		{AADF65B3-A19E-4B39-8FF5-815C2A104BB3} = {400B5390-660B-4C8C-899F-E37BD4793F63}
 		{1E12B7FA-AFB0-4D7C-B593-E6115B26FEB5} = {400B5390-660B-4C8C-899F-E37BD4793F63}
+		{95B4F0C8-374A-47DA-86D4-29D086CAABCD} = {DB0667EE-E131-4B9E-AA49-6C420E42F581}
 	EndGlobalSection
 EndGlobal
