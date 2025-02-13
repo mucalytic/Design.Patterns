@@ -1,13 +1,10 @@
-﻿using System.Numerics;
-using Design.Patterns.Interpreter.Maths.Abstractions;
+﻿using Design.Patterns.Interpreter.Maths.Abstractions;
+using System.Numerics;
 
 namespace Design.Patterns.Interpreter.Maths.Concretions;
 
-public class AddExpression<T, T1, T2>(Expression<T1> left, Expression<T2> right) :
-    Expression<T> where T1 : INumber<T1> where T2 : INumber<T2>
+public class AddExpression<T>(Expression<T> left, Expression<T> right) : Expression<T> where T : INumber<T>
 {
-    public override T Interpret(string context)
-    {
-        throw new NotImplementedException();
-    }
+    public override T Interpret() =>
+        left.Interpret() + right.Interpret();
 }

@@ -1,6 +1,8 @@
-﻿namespace Design.Patterns.Interpreter.Abstractions;
+﻿using System.Reactive;
+
+namespace Design.Patterns.Interpreter.Abstractions;
 
 public abstract class Expression
 {
-    public abstract void Interpret(string context);
+    public abstract Unit Interpret(Unit context);
 }
