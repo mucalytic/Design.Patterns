@@ -1,13 +1,10 @@
 ﻿using Design.Patterns.Flyweight.Factories;
-using System.Reactive;
+using Design.Patterns.Flyweight.Models;
 
 namespace Design.Patterns.Flyweight.Clients;
 
 public class Client(FlyweightFactory factory)
 {
-    public Unit Operation(object extrinsicData)
-    {
-        var flyweight = factory.GetFlyweight(extrinsicData);
-        return flyweight?.Operation(extrinsicData) ?? Unit.Default;
-    }
+    public void Operation(ExtrinsicState extrinsicState) =>
+        factory.GetFlyweight(extrinsicState.Value).Operation(extrinsicState);
 }

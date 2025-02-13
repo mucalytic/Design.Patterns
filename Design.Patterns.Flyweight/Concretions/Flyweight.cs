@@ -1,9 +1,13 @@
 ﻿using Design.Patterns.Flyweight.Interfaces;
-using System.Reactive;
+using Design.Patterns.Flyweight.Models;
+using Xunit.Abstractions;
 
 namespace Design.Patterns.Flyweight.Concretions;
 
-public class Flyweight(object intrinsicData) : IFlyweight
+public class Flyweight(ITestOutputHelper helper, IntrinsicState intrinsicState) : IFlyweight
 {
-    public Unit Operation(object extrinsicData) => Unit.Default;
+    public void Operation(ExtrinsicState extrinsicState) =>
+        helper.WriteLine(string.Join(' ',
+            $"{nameof(Flyweight)} with intrinsic state {intrinsicState.Value}",
+            $"did operation with extrinsic state {extrinsicState.Value}"));
 }

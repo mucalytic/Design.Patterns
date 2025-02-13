@@ -1,8 +1,8 @@
-﻿using System.Reactive;
+﻿using Design.Patterns.Flyweight.Models;
 
 namespace Design.Patterns.Flyweight.Interfaces;
 
 public interface IFlyweight
 {
-    Unit Operation(object extrinsicData);
+    void Operation(ExtrinsicState extrinsicState);
 }
